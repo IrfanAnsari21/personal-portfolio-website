@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website | Irfan Ansari</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="header">
         <div class="container">
@@ -21,9 +23,51 @@
             </nav>
             <div class="header-text">
                 <p>Frontend Developer</p>
-                <h1>Hi, I'm <span>Irfan Ansari</span><br/> from Delhi, India</h1>
+                <h1>Hi, I'm <span>Irfan Ansari</span><br /> from Delhi, India</h1>
             </div>
         </div>
     </div>
+    <!-- ------------ about ------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nostrum consectetur id ad
+                        inventore dicta itaque blanditiis nam, nihil error amet. Odit quasi sapiente necessitatibus
+                        aliquam nesciunt quae ullam nobis iusto minus obcaecati repudiandae, natus, distinctio enim.
+                        Quam molestias repellat consectetur tempore nulla ducimus voluptatibus?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>Looking for Opportunity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025 - 2026</span><br>MERN stack Development at DUCAT India Institute</li>
+                            <li><span>2024</span><br>BBE from Delhi University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
