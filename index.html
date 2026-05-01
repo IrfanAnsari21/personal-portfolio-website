@@ -14,13 +14,15 @@
         <div class="container">
             <nav>
                 <h1 class="logo">Irfan <span>Ansari</span></h1>
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Frontend Developer</p>
@@ -135,7 +137,7 @@
         </div>
     </div>
     <!-- ------------ Contact ------------ -->
-     <div id="contact">
+    <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -143,10 +145,14 @@
                     <p><i class="fa-solid fa-paper-plane"></i>irfanansari.career@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i>9990158493</p>
                     <div class="social-icons">
-                        <a href="https://github.com/IrfanAnsari21" target="_blank"><i class="fa-brands fa-github"></i></i></a>
-                        <a href="https://www.linkedin.com/in/irfan-ansari-ia21/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://x.com/IrfanAnsari_21" target="_blank"><i class="fa-brands fa-x-twitter"></i></i></a>
-                        <a href="https://www.instagram.com/_irfannn_28/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/IrfanAnsari21" target="_blank"><i
+                                class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/irfan-ansari-ia21/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/IrfanAnsari_21" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></i></a>
+                        <a href="https://www.instagram.com/_irfannn_28/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </div>
                     <a href="pdf/Irfan Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
@@ -163,7 +169,7 @@
         <div class="copyright">
             <p>&copy; Made by <span>Irfan Ansari</span></p>
         </div>
-     </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
