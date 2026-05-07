@@ -279,8 +279,19 @@ nav ul li a:hover::after {
     height: 100%;
 }
 
+.hideWork {
+    display: none;
+}
+
+.hideWork.active {
+    display: block;
+}
+
 .btn {
     display: block;
+    border: none;
+    outline: none;
+    background-color: transparent;
     margin: 50px auto;
     width: fit-content;
     border: 1px solid #ff004f;
@@ -288,6 +299,7 @@ nav ul li a:hover::after {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
     transition: background 0.5s;
 }
 
