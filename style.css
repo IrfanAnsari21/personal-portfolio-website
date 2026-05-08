@@ -280,11 +280,17 @@ nav ul li a:hover::after {
 }
 
 .hideWork {
-    display: none;
+    /* display: none; */
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.5s ease, opacity 0.5s ease;
 }
 
 .hideWork.active {
-    display: block;
+    /* display: block; */
+    height: 100%;
+    opacity: 1;
 }
 
 .btn {
